@@ -5,7 +5,7 @@ import (
 	"sort"
 )
 
-func GetData(dataCount int, pageSize int, pageIndex int) (returnValue PaginaionData) {
+func NewPaginationData(dataCount int, pageSize int, pageIndex int) (returnValue PaginaionData) {
 	if pageIndex <= 0 {
 		pageIndex = 1
 	}
