@@ -80,6 +80,7 @@ func NewPaginationData(dataCount int, pageSize int, pageIndex int) (returnValue 
 		}
 	}
 	returnValue.DataCount = dataCount
+	returnValue.PageSize = pageSize
 	returnValue.BeginDataIndex = beginDataIndex
 	returnValue.EndDataIndex = endDataIndex
 	returnValue.PageIndex = pageIndex
